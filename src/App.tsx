@@ -128,7 +128,7 @@ function App() {
               <textarea
                 id="matriculas"
                 rows={5}
-                className="block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"
+                className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                 placeholder="Digite as matrículas aqui..."
                 value={matriculas}
                 onChange={(e) => setMatriculas(e.target.value)}
